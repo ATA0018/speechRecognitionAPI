@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent
 OPENAPI_TAGS_METADATA = [
     {
         "name": "Root",
-        "description": "根路径与服务状态。",
+        "description": "根路径与服务状态! ",
     },
     {
         "name": "ASR",
