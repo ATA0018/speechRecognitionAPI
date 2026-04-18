@@ -1,0 +1,10 @@
+qwen-asr
+fastapi
+uvicorn
+python-multipart
+openvino
+numpy
+scipy
+soundfile
+librosa
+modelscope

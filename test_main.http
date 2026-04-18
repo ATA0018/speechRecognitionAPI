@@ -1,0 +1,14 @@
+### health
+GET http://127.0.0.1:8060/
+Accept: application/json
+
+### transcribe
+POST http://127.0.0.1:8060/api/asr/transcribe
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="demo.wav"
+Content-Type: audio/wav
+
+< ./demo.wav
+--WebAppBoundary--
