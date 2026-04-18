@@ -82,7 +82,7 @@ cp -r Qwen3-ASR-0.6B-fp16-ov/* static/models/Qwen3-ASR/
 ### 1️⃣ 克隆项目
 
 ```bash
-git clone https://github.com/your-username/speechRecognitionAPI.git
+git clone hhttps://github.com/ATA0018/-speechRecognitionAPI.git
 cd speechRecognitionAPI
 ```
 
