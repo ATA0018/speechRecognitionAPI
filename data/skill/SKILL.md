@@ -20,7 +20,7 @@ This skill only covers the FastAPI module:
 
 ## Required Paths
 
-- API root: `/Users/aikemike/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI`
+- API root: `/Users/yourpath/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI`
 - model path dependency: `../lab2-speech-recognition/Qwen3-ASR` (resolved by service code)
 
 ## Workflow
@@ -39,14 +39,14 @@ FastAPI Skill Progress
 ### Step 1: install dependencies
 
 ```bash
-cd /Users/aikemike/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI
+cd /Users/yourpath/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI
 pip install -r requirements.txt
 ```
 
 ### Step 2: start API service
 
 ```bash
-cd /Users/aikemike/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI
+cd /Users/yourpath/Desktop/speechRecognition/speechRecognitionAPI/speechRecognitionAPI
 uvicorn main:app --host 0.0.0.0 --port 8060 --reload
 ```
 
@@ -65,7 +65,7 @@ Expected: JSON indicates service is running.
 ```bash
 curl -X POST "http://127.0.0.1:8060/api/asr/transcribe" \
   -H "accept: application/json" \
-  -F "file=@/Users/aikemike/Desktop/speechRecognition/data/records/sample_en.wav"
+  -F "file=@/Users/yourpath/Desktop/speechRecognition/data/records/sample_en.wav"
 ```
 
 Expected:
